@@ -1,0 +1,141 @@
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+nav{
+    margin-left: 50%;
+    position: fixed;
+    /* background-color: aliceblue; */
+    /* margin-bottom: 50px; */
+}
+nav ul{
+    display: flex;
+    color: aliceblue;
+    list-style: none;
+}
+nav ul li{
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:red;
+}
+body{
+    background-image: url("background.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.bgremove img{
+    display: flex;
+    margin-left: 50%;
+    width: 50%;
+}
+.image{
+    display: flex;
+    margin-left: 20%;
+    position:absolute;
+    margin-top: -600px;
+    width: 75%;
+    height: 20000;
+}
+.info{
+    /* color: aliceblue; */
+    margin-top: -550px;
+    display: flex;
+    margin-right: 50%;
+    font-size: 25px;
+    margin-bottom: 70px;
+    
+}
+span{
+    color: red;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+    background-color: yellowgreen;
+    border-radius: 20px;
+    height: 40px;
+    width: 180px;
+    margin-bottom: 40px;
+    margin-bottom: 100px;
+}
+button:hover{
+    transform: scale(0.7);
+    color: brown;
+}
+.downbar img{ 
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    margin-bottom: 150px;
+}
+.downbar img:hover{
+    transform: scale(1.2);
+}
+h2{
+    text-align: center;
+}
+.aboutinfo{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 150px;
+}
+.skills{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 150px;
+}
+.certification{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 150px;
+}
+.contact{
+    background-color: aliceblue;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    /* text-align: center; */
+}
+.contact img{
+    height: 20px;
+    width: 20px;
+}
+.contact input{
+    margin-bottom: 10px; 
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+
+}
+.contact button{
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: 10px; 
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+}
+.contact button:hover{
+    background-color: rgb(153, 174, 191);
+    transform: scale(1.2);
+}
+.text{
+    text-align: center;
+}
+/* hr{
+    background-color: black;
+    width: 200px;
+} */
