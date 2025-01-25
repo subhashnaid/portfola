@@ -148,6 +148,7 @@ button:hover{
 }
 .card1 span{
     color: red;
+    fontsize: 10px;
 }
 .card-image img{
     margin-top: 20px;
