@@ -77,9 +77,9 @@ button:hover{
 .downbar img:hover{
     transform: scale(1.2);
 }
-h2{
+/* h2{
     text-align: center;
-}
+} */
 .aboutinfo{
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
