@@ -3,26 +3,28 @@ h1{
     color: aliceblue;
 }
 nav{
-    margin-left: 50%;
     position: fixed;
-    /* background-color: aliceblue; */
-    /* margin-bottom: 50px; */
+    background-color: black;
+    border-radius: 30px;
 }
 nav ul{
     display: flex;
-    color: aliceblue;
     list-style: none;
+    gap: 170px;
+    color: aliceblue;
 }
 nav ul li{
     text-decoration: none;
     margin-right: 20px;
+    
 }
 nav ul li a{
     text-decoration: none;
+    color: aliceblue;
 }
 nav ul li a:hover{
     color:red;
-}
+} 
 body{
     background-image: url("background.jpg");
     background-size:cover;
@@ -57,7 +59,8 @@ span{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 button{
-    background-color: yellowgreen;
+    background-color: blue;
+    color: aliceblue;
     border-radius: 20px;
     height: 40px;
     width: 180px;
@@ -66,7 +69,7 @@ button{
 }
 button:hover{
     transform: scale(0.7);
-    color: brown;
+    background-color: chartreuse;
 }
 .downbar img{ 
     height: 40px;
@@ -77,9 +80,9 @@ button:hover{
 .downbar img:hover{
     transform: scale(1.2);
 }
-/* h2{
+h2{
     text-align: center;
-} */
+}
 .aboutinfo{
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
@@ -107,12 +110,20 @@ button:hover{
     height: 30px;
     width: 60%;
     border-radius: 30px;
+    transition: 5s;
 }
+/* .skill:hover{
+    transform: scale(1.2);   
+} */
 .border{
+        transition: 5s;
         background-color:burlywood;
         height: 30px;
         border-radius: 30px;
 }
+/* .border:hover{
+    transform: scale(1.2);
+} */
 .certification{
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
@@ -125,12 +136,17 @@ button:hover{
     gap: 30px;
 }
 .card{
+    align-items: center;
+    text-align: center;
     background-color: aqua;
-    height: 300px;
+    height: 350px;
     width: 250px;
     border-radius: 30px;
-    box-shadow: 10px;
     transition: 5s;
+    box-shadow: 10px;
+}
+.card:hover{
+    transform: scale(1.2);
 }
 .card-img img{
     margin-top: 20px;
@@ -139,16 +155,21 @@ button:hover{
     border-radius: 15px;
 }
 .card1{
+    align-items: center;
+    text-align: center;
     background-color: aqua;
-    height: 400px;
-    width: 250px;
+    height: 500px;
+    width: 300px;
     border-radius: 30px;
     box-shadow: 10px;
     transition: 5s;
 }
+.card1:hover{
+    transform: scale(1.2);
+}
 .card1 span{
     color: red;
-    fontsize: 10px;
+    font-size: 20px;
 }
 .card-image img{
     margin-top: 20px;
@@ -158,15 +179,18 @@ button:hover{
 }
 .card span{
     color: red;
+    font-size: 20px;
 }
 .btn button{
     color: aliceblue;
     background-color: blue;
     border-radius: 15px;
     height: 30px;
+    width: 120px;
 }
 
 .contact{
+    text-align: center;
     background-color: aliceblue;
     font-size: 15px;
     font-family:'Times New Roman', Times, serif;
@@ -193,14 +217,18 @@ button:hover{
     height: 40px;
     border-radius: 20px;
 }
-.contact button:hover{
+/* .contact button:hover{
     background-color: rgb(153, 174, 191);
     transform: scale(1.2);
-}
-.text{
-    text-align: center;
-}
-/* hr{
-    background-color: black;
-    width: 200px;
 } */
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.contact p{
+    text-decoration: none;
+    color: black;
+}
+.contact a:hover{
+    color: red;
+}
