@@ -190,13 +190,14 @@ h2{
 }
 
 .contact{
+    text-aline:center;
     background-color: aliceblue;
     font-size: 15px;
     font-family:'Times New Roman', Times, serif;
 }
 .contact img{
-    height: 20px;
-    width: 20px;
+    height: 10px;
+    width: 10px;
 }
 .contact input{
     margin-bottom: 10px; 
