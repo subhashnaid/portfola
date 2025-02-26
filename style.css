@@ -11,6 +11,7 @@ nav{
     border-radius: 30px;
     margin-bottom: 30px;
     margin-bottom: 100px;
+      z-index: 2;
 }
 nav ul{
     display: flex;
