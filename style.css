@@ -143,12 +143,12 @@ h2{
     height: 350px;
     width: 250px;
     border-radius: 30px;
-/*     transition: 5s; */
+    transition: 5s;
     box-shadow: 10px;
 }
-.card:hover{
+/* .card:hover{
     transform: scale(1.2);
-}
+} */
 .card-img img{
     margin-top: 20px;
     height: 100px;
@@ -163,11 +163,10 @@ h2{
     width: 300px;
     border-radius: 30px;
     box-shadow: 10px;
-/*     transition: 5s; */
 }
-.card1:hover{
+/* .card1:hover{
     transform: scale(1.2);
-}
+} */
 .card1 span{
     color: red;
     font-size: 20px;
@@ -191,7 +190,7 @@ h2{
 }
 
 .contact{
-    text-aline:center;
+    text-align: center;
     background-color: aliceblue;
     font-size: 15px;
     font-family:'Times New Roman', Times, serif;
